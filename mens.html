@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+    
+    
+  }
+    </style>
+</head>
+<body>
+    <h1>Mens page</h1>
+    
+    <div id="container">
+    </div> 
+</body>
+</html>
+
+<script>
+
+  
+var mensData = [
+    {
+      image_url: "https://assets.ajio.com/cms/AJIO/WEB/28032022-D-unisex-TOPBANNER.gif"
+    , set_attribute: "Arjun Kapoor"
+    },
+
+    {
+      image_url: "https://assets.ajio.com/cms/AJIO/WEB/11032022-D-unisex-MeettheStarsoftheShow-Header.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-unisex-topbannercarousel-p1-brands-upto700on1000.jpg"
+       
+     
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-topbannercarousel-p1-premiumbrands-4070.jpg"
+    },
+    {
+      image_url: "https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-topbannercarousel-p2-ucb-min40.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-unisex-topbannercarousel-p3-westernwear-brands-upto80.jpg",
+
+},
+{
+  image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-topbannercarousel-p4-brands-3060.jpg"
+
+},
+{
+  image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-topbannercarousel-p5-woodland-upto50.jpg"
+
+},
+{
+  image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-unisex-topbannercarousel-p6-brands-flat55.jpg"
+
+},
+{
+ image_url:"https://assets.ajio.com/cms/AJIO/WEB/mobiwik-719-x-148.jpg"
+},
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/Paytm-719x148.jpg",
+      
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/040asas2022-D-unisex-ajiomania-bankoffers-relianceone.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-Yourmostlovedbrands-Header.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-banner1-p1-puma-4070.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-banner1-p2-superdry-3050.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-unisex-banner1-p3-brands-3070.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-banner1-p4-brands-3050.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-banner1-p5-tommyhilfiger-3050.jpg"
+    },
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/29032022-D-Unisex-banner1-p6-sunglasses-levis-4060.jpg"
+    },
+
+
+    {
+      image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-DealZone-Header.jpg"
+    },
+
+
+
+    {
+      image_url: "https://assets.ajio.com/cms/AJIO/WEB/28032022-D-MHP-topbanner-allstarsale-extension.gif",
+    },
+    {
+      image_url: "https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-Topstrips-InstantDiscount.jpg",
+    },
+    {
+      image_url: "https://assets.ajio.com/cms/AJIO/WEB/onecard-719x148.jpg"
+    },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-DealZone-flat80.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-DealZone-699.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-DealZone-999.jpg"
+   },
+   
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-DealZone-flat70.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-DealZone-under599.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-Bingeonthebestsellers-Header.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/SDSDSD.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-FreshofftheRunway-header.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-FreshofftheRunway-SS22-FINAL.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/21032022-D-unisex-freshofftherunway-westernwear.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/21032022-D-unisex-freshofftherunway-ethnicwear.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/21032022-D-unisex-freshofftherunway-sportswear.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-FreshofftheRunway-premiumbrands-upto40.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-FreshofftheRunway-premiumbrands-upto30.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/21032022-D-unisex-freshofftherunway-fashionable.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-FreshofftheRunway-brands-upto30.jpg"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-unisex-celebwishlist-header.png"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-unisex-celebwishlist-Shraddha.png"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-unisex-celebwishlist-Arjun.png"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/14032022-D-Unisex-celebwishlist-Badshah-RESIVED.png"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/14032022-D-Unisex-celebwishlist-Vaani-RESIVED.png"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-unisex-celebwishlist-Radhika.png"
+   },
+   {
+     image_url:"https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-ourexclusivebrands-header.jpg"
+   },
+   {
+     image_url:""
+   },
+   {
+     image_url:""
+   },
+   {
+     image_url:""
+   },
+   {
+     image_url:""
+   },
+   {
+     image_url:""
+   },
+   {
+     image_url:""
+   },
+   {
+     image_url:""
+   },
+
+    ];
+
+mensData.map(function (elem) {
+    var box = document.createElement("div");
+  
+    var img = document.createElement("img");
+    img.src = elem.image_url;
+    img.setAttribute = elem.set_attribute;
+  box.append(img);
+
+    document.querySelector("#container").append(box);
+  });
+</script>
+
